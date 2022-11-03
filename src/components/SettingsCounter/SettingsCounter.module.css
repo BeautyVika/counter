@@ -1,0 +1,50 @@
+.settings  {
+    width: 300px;
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    background-color: black;
+}
+.values {
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+.value {
+    display: flex;
+    gap: 30px;
+    color: skyblue;
+}
+.valueInput {
+    height: 16px;
+    width: 135px;
+    margin-bottom: 5px;
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    padding: 5px;
+}
+.error {
+    border: 2px solid red;
+    background-color: #ffb0aa;
+}
+.btn {
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+.btn button {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 85px;
+    background-color: skyblue;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn button:disabled {
+    opacity: 0.5;
+}

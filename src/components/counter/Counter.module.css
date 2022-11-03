@@ -1,0 +1,55 @@
+.final {
+    width: 300px;
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    background-color: black;
+}
+.number {
+    height: 55px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: skyblue;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+}
+.finish{
+    color: red;
+}
+.startMessage{
+    font-size: 16px;
+}
+.btnGroup {
+    display: flex;
+    gap: 60px;
+    border: 2px solid skyblue;
+    border-radius: 2px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+.btnGroup button {
+    display: block;
+    height: 30px;
+    width: 85px;
+    background-color: skyblue;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btnGroup button:disabled {
+    opacity: 0.5;
+}
+
+.startMessage {
+    color: white;
+}
+.error {
+    color: red;
+    font-size: 20px;
+}
